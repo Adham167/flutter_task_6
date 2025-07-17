@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_task_6/animated_welcome_header.dart';
-import 'package:flutter_task_6/stacked_layout_card.dart';
+import 'package:flutter_task_6/slide_in_feature_box.dart';
 
 void main() {
   runApp(HomePage());
@@ -13,7 +12,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:StackedLayoutCard() ,
+      home:SlideInFeatureBox() ,
     );
   }
 }
