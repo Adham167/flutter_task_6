@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_task_6/animated_drawer_header.dart';
+import 'package:flutter_task_6/my_assistant_app.dart';
 
 void main() {
   runApp(HomePage());
@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: AnimatedDrawerHeader(),
+      home: MyAssistantApp(),
     );
   }
 }
