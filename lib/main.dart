@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_task_6/slide_in_feature_box.dart';
+import 'package:flutter_task_6/profile_layout_safeArea.dart';
 
 void main() {
   runApp(HomePage());
@@ -12,9 +12,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:SlideInFeatureBox() ,
+      home: ProfileLayoutSafearea(),
     );
   }
 }
-
-
